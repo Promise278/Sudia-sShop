@@ -23,7 +23,7 @@ function Nav() {
       <div className="max-w-7xl mx-auto md:px-4 px-4 md:py-4 py-2 flex items-center justify-between gap-4">
         <Link
           to="/"
-          className="md:text-xl text-sm font-bold text-gray-900 md:tracking-wide tracking-normal"
+          className="md:text-xl text-sm font-bold text-gray-900 tracking-normal sm:tracking-wide"
         >
           SA <span className="text-yellow-600">Jundu</span> bin Amin
         </Link>
