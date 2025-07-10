@@ -1,77 +1,3 @@
-// import React from "react";
-// import { useState } from "react";
-// import { Link } from "react-router-dom";
-// import { CiSearch } from "react-icons/ci";
-
-// function Nav() {
-//   const [search, setSearch] = useState("");
-//   return (
-//     <div>
-//       <nav className="bg-white shadow-lg sticky top-0 z-50">
-//         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-//           <Link
-//             to="/"
-//             className="text-xl font-bold text-gray-900 tracking-wide"
-//           >
-//             SA <span className="text-yellow-600">Jundu</span> bin Amin
-//           </Link>
-
-//           <div className="hidden md:flex flex-1 mx-6 max-w-md">
-//             <div className="relative mr-[400px] w-56">
-//               <div className="absolute inset-y-0 left-0 flex items-center pl-3">
-//                 <CiSearch className="text-gray-500 cursor-pointer" size={20} />
-//               </div>
-//               <input
-//                 type="search"
-//                 value={search}
-//                   onChange={(e) => setSearch(e.target.value)}
-//                 className="h-11 w-80 rounded-md p-4 pl-9 bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white"
-//                 placeholder="Search your product ..."
-//               />
-//             </div>
-//           </div>
-
-//           <div className="flex items-center gap-8">
-//             <ul className="hidden md:flex space-x-4 text-sm font-medium text-gray-700">
-//               <li>
-//                 <Link to="/">Home</Link>
-//               </li>
-//               <li>
-//                 <Link to="/shop">Shop</Link>
-//               </li>
-//               <li>
-//                 <Link to="/about">About</Link>
-//               </li>
-//               <li>
-//                 <Link to="/contact">Contact</Link>
-//               </li>
-//             </ul>
-//             <div className="flex gap-6 text-xl">
-//               <Link to="/cart" title="Cart">
-//                 🛒
-//               </Link>
-//               <Link to="/account" title="Account">
-//                 👤
-//               </Link>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="md:hidden px-4 pb-3">
-//           <input
-//             type="text"
-//             placeholder="Search..."
-//             value={search}
-//             onChange={(e) => setSearch(e.target.value)}
-//             className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-yellow-500"
-//           />
-//         </div>
-//       </nav>
-//     </div>
-//   );
-// }
-
-// export default Nav;
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
@@ -94,7 +20,7 @@ function Nav() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50 h-20">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto md:px-4 px-4 md:py-4 py-2 flex items-center justify-between gap-4">
         <Link
           to="/"
           className="md:text-xl text-sm font-bold text-gray-900 tracking-wide"
