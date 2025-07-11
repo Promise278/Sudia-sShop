@@ -65,7 +65,7 @@ function Nav() {
               </ul>
             </li>
             <li>
-              <Link to="/shop">Shop</Link>
+              <Link to="/productpage">Shop</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
@@ -115,7 +115,7 @@ function Nav() {
                 </ul>
               </li>
               <li>
-                <Link to="/shop">Shop</Link>
+                <Link to="/productpage">Shop</Link>
               </li>
               <li>
                 <Link to="/about">About</Link>
